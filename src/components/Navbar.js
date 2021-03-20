@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
     return (
-        <div className='navbar'>
+        <div className='navi'>
             <nav>
                 <ul className='ul-nav'>
                     <li className='li-nav'>

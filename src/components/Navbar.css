@@ -1,4 +1,4 @@
-.navbar{
+.navi{
     background-color: black ;
     height: 80px;
     width: 100%;
@@ -7,6 +7,7 @@
     opacity: 0.9;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .ul-nav{
@@ -23,7 +24,17 @@
 }
 
 .a-nav {
-    text-decoration: none;
     color: white;
+    /* text-decoration: none; */
+
+}
+.a-nav:hover{
+    text-decoration: none;
+    color: gray;
+    border-bottom: 5px solid #8C1CD1;
+    
+}
+.a-nav:active{
+    color: gray;
 }
 
