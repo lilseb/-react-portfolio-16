@@ -1,5 +1,5 @@
 .navi{
-    background-color: black ;
+    background-color: rgb(0, 0, 0) ;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -24,17 +24,15 @@
 }
 
 .a-nav {
-    color: white;
+    color: orangered;
     /* text-decoration: none; */
 
 }
 .a-nav:hover{
     text-decoration: none;
-    color: gray;
-    border-bottom: 5px solid #8C1CD1;
+    color: orangered;
+    border-bottom: 5px solid orangered;
     
 }
-.a-nav:active{
-    color: gray;
-}
+
 
